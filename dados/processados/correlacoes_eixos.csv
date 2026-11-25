@@ -1,0 +1,286 @@
+amostra,eixo,variavel,desfecho,n,rho,p,rho_parcial,p_parcial,q_p,q_p_parcial
+todos,Socioeconômico (Censo 2022),renda_mediana_pc,cob_comp_dez21_censo,184,0.0064,0.9308,0.1436,0.0530,0.9936,0.2652
+todos,Socioeconômico (Censo 2022),renda_mediana_pc,cob_comp_fim_censo,184,-0.0346,0.6413,0.0880,0.2375,0.7913,0.5395
+todos,Socioeconômico (Censo 2022),renda_mediana_pc,cob_ref_fim_censo,184,-0.0742,0.3166,0.0576,0.4398,0.4775,0.7157
+todos,Socioeconômico (Censo 2022),renda_mediana_pc,abandono_fim,184,-0.1151,0.1197,-0.1306,0.0788,0.2033,0.3293
+todos,Socioeconômico (Censo 2022),renda_mediana_pc,dia_d1_50,184,-0.2781,0.0001,-0.3267,0.0000,0.0010,0.0006
+todos,Socioeconômico (Censo 2022),pct_superior_18,cob_comp_dez21_censo,184,-0.0455,0.5393,0.0241,0.7469,0.7100,0.8834
+todos,Socioeconômico (Censo 2022),pct_superior_18,cob_comp_fim_censo,184,-0.1064,0.1504,-0.0462,0.5359,0.2506,0.7599
+todos,Socioeconômico (Censo 2022),pct_superior_18,cob_ref_fim_censo,184,0.0008,0.9915,0.0820,0.2712,0.9965,0.5481
+todos,Socioeconômico (Censo 2022),pct_superior_18,abandono_fim,184,-0.0007,0.9925,-0.0025,0.9736,0.9965,0.9736
+todos,Socioeconômico (Censo 2022),pct_superior_18,dia_d1_50,184,-0.1421,0.0544,-0.1670,0.0243,0.1202,0.1731
+todos,Socioeconômico (Censo 2022),pct_sem_fund_18,cob_comp_dez21_censo,184,0.2002,0.0064,0.0562,0.4513,0.0235,0.7157
+todos,Socioeconômico (Censo 2022),pct_sem_fund_18,cob_comp_fim_censo,184,0.1889,0.0102,0.0530,0.4771,0.0323,0.7157
+todos,Socioeconômico (Censo 2022),pct_sem_fund_18,cob_ref_fim_censo,184,0.3021,0.0000,0.1656,0.0255,0.0004,0.1731
+todos,Socioeconômico (Censo 2022),pct_sem_fund_18,abandono_fim,184,-0.0525,0.4791,-0.0533,0.4745,0.6411,0.7157
+todos,Socioeconômico (Censo 2022),pct_sem_fund_18,dia_d1_50,184,0.0029,0.9687,0.0406,0.5861,0.9965,0.8135
+todos,Socioeconômico (Censo 2022),alfab15,cob_comp_dez21_censo,184,-0.1583,0.0319,0.0148,0.8432,0.0811,0.9424
+todos,Socioeconômico (Censo 2022),alfab15,cob_comp_fim_censo,184,-0.1797,0.0147,-0.0241,0.7467,0.0435,0.8834
+todos,Socioeconômico (Censo 2022),alfab15,cob_ref_fim_censo,184,-0.2595,0.0004,-0.1003,0.1780,0.0021,0.4831
+todos,Socioeconômico (Censo 2022),alfab15,abandono_fim,184,0.0601,0.4176,0.0603,0.4191,0.5750,0.7130
+todos,Socioeconômico (Censo 2022),alfab15,dia_d1_50,184,-0.0444,0.5498,-0.0868,0.2442,0.7100,0.5395
+todos,Socioeconômico (Censo 2022),pct_sem_internet,cob_comp_dez21_censo,184,0.1269,0.0862,-0.0027,0.9706,0.1819,0.9736
+todos,Socioeconômico (Censo 2022),pct_sem_internet,cob_comp_fim_censo,184,0.1740,0.0182,0.0601,0.4203,0.0494,0.7130
+todos,Socioeconômico (Censo 2022),pct_sem_internet,cob_ref_fim_censo,184,0.0757,0.3074,-0.0695,0.3512,0.4711,0.6330
+todos,Socioeconômico (Censo 2022),pct_sem_internet,abandono_fim,184,0.0695,0.3485,0.0828,0.2665,0.5093,0.5481
+todos,Socioeconômico (Censo 2022),pct_sem_internet,dia_d1_50,184,0.1229,0.0966,0.1608,0.0302,0.1912,0.1791
+todos,Socioeconômico (Censo 2022),pct_rural,cob_comp_dez21_censo,184,0.0903,0.2230,0.0115,0.8778,0.3591,0.9476
+todos,Socioeconômico (Censo 2022),pct_rural,cob_comp_fim_censo,184,0.0639,0.3885,-0.0137,0.8541,0.5427,0.9434
+todos,Socioeconômico (Censo 2022),pct_rural,cob_ref_fim_censo,184,0.1188,0.1083,0.0105,0.8877,0.1978,0.9476
+todos,Socioeconômico (Censo 2022),pct_rural,abandono_fim,184,-0.0101,0.8916,-0.0210,0.7785,0.9736,0.8992
+todos,Socioeconômico (Censo 2022),pct_rural,dia_d1_50,184,0.0136,0.8544,0.0757,0.3099,0.9663,0.5888
+todos,Religião (Censo 2022),pct_evangelicos,cob_comp_dez21_censo,184,-0.1949,0.0080,-0.1231,0.0979,0.0272,0.3365
+todos,Religião (Censo 2022),pct_evangelicos,cob_comp_fim_censo,184,-0.1941,0.0083,-0.1260,0.0901,0.0272,0.3293
+todos,Religião (Censo 2022),pct_evangelicos,cob_ref_fim_censo,184,-0.2999,0.0000,-0.2146,0.0036,0.0004,0.0641
+todos,Religião (Censo 2022),pct_evangelicos,abandono_fim,184,0.1236,0.0946,0.1378,0.0635,0.1912,0.3017
+todos,Religião (Censo 2022),pct_evangelicos,dia_d1_50,184,0.1508,0.0410,0.1124,0.1308,0.0957,0.4089
+todos,Religião (Censo 2022),pct_catolicos,cob_comp_dez21_censo,184,0.2199,0.0027,0.1282,0.0846,0.0117,0.3293
+todos,Religião (Censo 2022),pct_catolicos,cob_comp_fim_censo,184,0.2134,0.0036,0.1264,0.0891,0.0138,0.3293
+todos,Religião (Censo 2022),pct_catolicos,cob_ref_fim_censo,184,0.2755,0.0002,0.1660,0.0251,0.0010,0.1731
+todos,Religião (Censo 2022),pct_catolicos,abandono_fim,184,-0.1151,0.1199,-0.1291,0.0824,0.2033,0.3293
+todos,Religião (Censo 2022),pct_catolicos,dia_d1_50,184,-0.1466,0.0470,-0.1102,0.1386,0.1063,0.4114
+todos,Religião (Censo 2022),pct_sem_religiao,cob_comp_dez21_censo,184,-0.1744,0.0179,-0.0732,0.3263,0.0494,0.6078
+todos,Religião (Censo 2022),pct_sem_religiao,cob_comp_fim_censo,184,-0.1576,0.0326,-0.0607,0.4154,0.0811,0.7130
+todos,Religião (Censo 2022),pct_sem_religiao,cob_ref_fim_censo,184,-0.1506,0.0413,-0.0300,0.6878,0.0957,0.8486
+todos,Religião (Censo 2022),pct_sem_religiao,abandono_fim,184,0.0654,0.3776,0.0692,0.3532,0.5354,0.6330
+todos,Religião (Censo 2022),pct_sem_religiao,dia_d1_50,184,0.0682,0.3573,0.0392,0.5994,0.5143,0.8135
+todos,Atenção primária (CNES),esf_10mil_21,cob_comp_dez21_censo,184,0.3101,0.0000,0.1348,0.0696,0.0003,0.3151
+todos,Atenção primária (CNES),esf_10mil_21,cob_comp_fim_censo,184,0.2674,0.0002,0.0899,0.2273,0.0014,0.5395
+todos,Atenção primária (CNES),esf_10mil_21,cob_ref_fim_censo,184,0.3591,0.0000,0.1705,0.0214,0.0000,0.1731
+todos,Atenção primária (CNES),esf_10mil_21,abandono_fim,184,0.0003,0.9965,0.0050,0.9461,0.9965,0.9736
+todos,Atenção primária (CNES),esf_10mil_21,dia_d1_50,184,-0.1199,0.1050,-0.0857,0.2502,0.1978,0.5402
+todos,Atenção primária (CNES),esf_10mil_20,cob_comp_dez21_censo,184,0.2801,0.0001,0.1003,0.1778,0.0010,0.4831
+todos,Atenção primária (CNES),esf_10mil_20,cob_comp_fim_censo,184,0.2342,0.0014,0.0510,0.4939,0.0065,0.7157
+todos,Atenção primária (CNES),esf_10mil_20,cob_ref_fim_censo,184,0.3389,0.0000,0.1450,0.0508,0.0001,0.2652
+todos,Atenção primária (CNES),esf_10mil_20,abandono_fim,184,0.0366,0.6220,0.0510,0.4937,0.7775,0.7157
+todos,Atenção primária (CNES),esf_10mil_20,dia_d1_50,184,-0.1205,0.1033,-0.0788,0.2905,0.1978,0.5631
+todos,Atenção primária (CNES),ubs_10mil_21,cob_comp_dez21_censo,184,0.2156,0.0033,0.0363,0.6267,0.0130,0.8156
+todos,Atenção primária (CNES),ubs_10mil_21,cob_comp_fim_censo,184,0.1743,0.0180,-0.0106,0.8868,0.0494,0.9476
+todos,Atenção primária (CNES),ubs_10mil_21,cob_ref_fim_censo,184,0.2771,0.0001,0.0525,0.4816,0.0010,0.7157
+todos,Atenção primária (CNES),ubs_10mil_21,abandono_fim,184,0.1192,0.1069,0.1504,0.0426,0.1978,0.2383
+todos,Atenção primária (CNES),ubs_10mil_21,dia_d1_50,184,-0.1166,0.1150,-0.0235,0.7532,0.2033,0.8834
+todos,Atenção primária (CNES),var_esf_20_21,cob_comp_dez21_censo,184,0.0229,0.7577,0.0918,0.2178,0.8887,0.5395
+todos,Atenção primária (CNES),var_esf_20_21,cob_comp_fim_censo,184,0.0400,0.5896,0.1064,0.1529,0.7468,0.4401
+todos,Atenção primária (CNES),var_esf_20_21,cob_ref_fim_censo,184,-0.0572,0.4409,0.0261,0.7267,0.5983,0.8834
+todos,Atenção primária (CNES),var_esf_20_21,abandono_fim,184,-0.0089,0.9047,-0.0028,0.9696,0.9767,0.9736
+todos,Atenção primária (CNES),var_esf_20_21,dia_d1_50,184,-0.0440,0.5531,-0.0877,0.2390,0.7100,0.5395
+todos,Atenção primária (CNES),cob_aps_est_sem_teto_21,cob_comp_dez21_censo,184,0.3092,0.0000,0.1226,0.0992,0.0003,0.3365
+todos,Atenção primária (CNES),cob_aps_est_sem_teto_21,cob_comp_fim_censo,184,0.2700,0.0002,0.0797,0.2851,0.0013,0.5631
+todos,Atenção primária (CNES),cob_aps_est_sem_teto_21,cob_ref_fim_censo,184,0.3952,0.0000,0.2078,0.0049,0.0000,0.0662
+todos,Atenção primária (CNES),cob_aps_est_sem_teto_21,abandono_fim,184,-0.0041,0.9563,-0.0066,0.9292,0.9965,0.9701
+todos,Atenção primária (CNES),cob_aps_est_sem_teto_21,dia_d1_50,184,-0.1311,0.0761,-0.0871,0.2423,0.1643,0.5395
+todos,Histórico sanitário,mort20_100k,cob_comp_dez21_censo,184,-0.0787,0.2883,0.0396,0.5960,0.4489,0.8135
+todos,Histórico sanitário,mort20_100k,cob_comp_fim_censo,184,-0.0798,0.2813,0.0312,0.6762,0.4454,0.8452
+todos,Histórico sanitário,mort20_100k,cob_ref_fim_censo,184,-0.1159,0.1171,0.0340,0.6485,0.2033,0.8325
+todos,Histórico sanitário,mort20_100k,abandono_fim,184,-0.0271,0.7152,-0.0203,0.7856,0.8711,0.8992
+todos,Histórico sanitário,mort20_100k,dia_d1_50,184,-0.0173,0.8157,-0.0917,0.2183,0.9336,0.5395
+todos,Histórico sanitário,flu_idosos_cob,cob_comp_dez21_censo,184,0.0106,0.8870,0.0369,0.6212,0.9736,0.8156
+todos,Histórico sanitário,flu_idosos_cob,cob_comp_fim_censo,184,0.0120,0.8710,0.0367,0.6229,0.9735,0.8156
+todos,Histórico sanitário,flu_idosos_cob,cob_ref_fim_censo,184,0.0041,0.9561,0.0327,0.6608,0.9965,0.8370
+todos,Histórico sanitário,flu_idosos_cob,abandono_fim,184,-0.0178,0.8100,-0.0185,0.8045,0.9336,0.9099
+todos,Histórico sanitário,flu_idosos_cob,dia_d1_50,184,-0.1019,0.1687,-0.1117,0.1334,0.2763,0.4089
+todos,Porte e medida,log_pop2022,cob_comp_dez21_censo,184,-0.2556,0.0005,-0.1729,0.0192,0.0024,0.1731
+todos,Porte e medida,log_pop2022,cob_comp_fim_censo,184,-0.2427,0.0009,-0.1654,0.0252,0.0045,0.1731
+todos,Porte e medida,log_pop2022,cob_ref_fim_censo,184,-0.3374,0.0000,-0.2890,0.0001,0.0001,0.0034
+todos,Porte e medida,log_pop2022,abandono_fim,184,-0.0243,0.7437,-0.0505,0.4972,0.8887,0.7157
+todos,Porte e medida,log_pop2022,dia_d1_50,184,0.1575,0.0327,0.2115,0.0040,0.0811,0.0641
+todos,Porte e medida,log_densidade,cob_comp_dez21_censo,184,-0.2239,0.0023,-0.0916,0.2188,0.0102,0.5395
+todos,Porte e medida,log_densidade,cob_comp_fim_censo,184,-0.1832,0.0128,-0.0536,0.4724,0.0393,0.7157
+todos,Porte e medida,log_densidade,cob_ref_fim_censo,184,-0.1946,0.0081,-0.0547,0.4633,0.0272,0.7157
+todos,Porte e medida,log_densidade,abandono_fim,184,0.1570,0.0333,0.1633,0.0276,0.0811,0.1746
+todos,Porte e medida,log_densidade,dia_d1_50,184,0.0231,0.7556,0.0090,0.9040,0.8887,0.9542
+todos,Porte e medida,razao_pop22_21,cob_comp_dez21_censo,184,-0.3040,0.0000,-0.2409,0.0010,0.0004,0.0322
+todos,Porte e medida,razao_pop22_21,cob_comp_fim_censo,184,-0.2824,0.0001,-0.2212,0.0026,0.0010,0.0623
+todos,Porte e medida,razao_pop22_21,cob_ref_fim_censo,184,-0.2157,0.0033,-0.1178,0.1122,0.0130,0.3676
+todos,Porte e medida,razao_pop22_21,abandono_fim,184,0.0709,0.3392,0.0835,0.2611,0.5035,0.5481
+todos,Porte e medida,razao_pop22_21,dia_d1_50,184,-0.1238,0.0941,-0.1883,0.0107,0.1912,0.1270
+sem_alerta,Socioeconômico (Censo 2022),renda_mediana_pc,cob_comp_dez21_censo,133,-0.0242,0.7820,0.0749,0.3953,0.8292,0.7085
+sem_alerta,Socioeconômico (Censo 2022),renda_mediana_pc,cob_comp_fim_censo,133,-0.1316,0.1311,-0.0402,0.6488,0.2543,0.8167
+sem_alerta,Socioeconômico (Censo 2022),renda_mediana_pc,cob_ref_fim_censo,133,-0.0299,0.7326,0.0716,0.4163,0.8092,0.7190
+sem_alerta,Socioeconômico (Censo 2022),renda_mediana_pc,abandono_fim,133,-0.0716,0.4127,-0.0911,0.3009,0.5299,0.6323
+sem_alerta,Socioeconômico (Censo 2022),renda_mediana_pc,dia_d1_50,133,-0.2195,0.0111,-0.2919,0.0007,0.0353,0.0227
+sem_alerta,Socioeconômico (Censo 2022),pct_superior_18,cob_comp_dez21_censo,133,-0.0367,0.6746,0.0420,0.6337,0.7539,0.8167
+sem_alerta,Socioeconômico (Censo 2022),pct_superior_18,cob_comp_fim_censo,133,-0.0667,0.4455,0.0121,0.8910,0.5643,0.9483
+sem_alerta,Socioeconômico (Censo 2022),pct_superior_18,cob_ref_fim_censo,133,0.0143,0.8699,0.0923,0.2945,0.8829,0.6323
+sem_alerta,Socioeconômico (Censo 2022),pct_superior_18,abandono_fim,133,-0.0888,0.3095,-0.1083,0.2184,0.4324,0.5186
+sem_alerta,Socioeconômico (Censo 2022),pct_superior_18,dia_d1_50,133,-0.0991,0.2566,-0.1322,0.1324,0.3931,0.3930
+sem_alerta,Socioeconômico (Censo 2022),pct_sem_fund_18,cob_comp_dez21_censo,133,0.2723,0.0015,0.1478,0.0922,0.0058,0.3243
+sem_alerta,Socioeconômico (Censo 2022),pct_sem_fund_18,cob_comp_fim_censo,133,0.2793,0.0011,0.1433,0.1026,0.0049,0.3360
+sem_alerta,Socioeconômico (Censo 2022),pct_sem_fund_18,cob_ref_fim_censo,133,0.3617,0.0000,0.2516,0.0037,0.0004,0.0712
+sem_alerta,Socioeconômico (Censo 2022),pct_sem_fund_18,abandono_fim,133,-0.0940,0.2820,-0.0718,0.4150,0.4173,0.7190
+sem_alerta,Socioeconômico (Censo 2022),pct_sem_fund_18,dia_d1_50,133,-0.1269,0.1455,-0.0555,0.5290,0.2716,0.7852
+sem_alerta,Socioeconômico (Censo 2022),alfab15,cob_comp_dez21_censo,133,-0.2091,0.0157,-0.0413,0.6396,0.0467,0.8167
+sem_alerta,Socioeconômico (Censo 2022),alfab15,cob_comp_fim_censo,133,-0.2549,0.0031,-0.0847,0.3362,0.0104,0.6653
+sem_alerta,Socioeconômico (Censo 2022),alfab15,cob_ref_fim_censo,133,-0.3167,0.0002,-0.1765,0.0437,0.0017,0.2306
+sem_alerta,Socioeconômico (Censo 2022),alfab15,abandono_fim,133,0.1153,0.1862,0.0919,0.2966,0.3104,0.6323
+sem_alerta,Socioeconômico (Censo 2022),alfab15,dia_d1_50,133,0.0507,0.5621,-0.0407,0.6445,0.6759,0.8167
+sem_alerta,Socioeconômico (Censo 2022),pct_sem_internet,cob_comp_dez21_censo,133,0.0994,0.2552,-0.0324,0.7132,0.3931,0.8365
+sem_alerta,Socioeconômico (Censo 2022),pct_sem_internet,cob_comp_fim_censo,133,0.1667,0.0552,0.0379,0.6671,0.1192,0.8167
+sem_alerta,Socioeconômico (Censo 2022),pct_sem_internet,cob_ref_fim_censo,133,0.0848,0.3316,-0.0446,0.6126,0.4437,0.8167
+sem_alerta,Socioeconômico (Censo 2022),pct_sem_internet,abandono_fim,133,0.1174,0.1784,0.1540,0.0790,0.3094,0.3018
+sem_alerta,Socioeconômico (Censo 2022),pct_sem_internet,dia_d1_50,133,0.0753,0.3888,0.1447,0.0992,0.5059,0.3360
+sem_alerta,Socioeconômico (Censo 2022),pct_rural,cob_comp_dez21_censo,133,0.0857,0.3268,0.0142,0.8725,0.4435,0.9419
+sem_alerta,Socioeconômico (Censo 2022),pct_rural,cob_comp_fim_censo,133,0.0897,0.3045,0.0097,0.9123,0.4324,0.9524
+sem_alerta,Socioeconômico (Censo 2022),pct_rural,cob_ref_fim_censo,133,0.0395,0.6517,-0.0447,0.6120,0.7459,0.8167
+sem_alerta,Socioeconômico (Censo 2022),pct_rural,abandono_fim,133,0.0162,0.8529,0.0285,0.7463,0.8829,0.8513
+sem_alerta,Socioeconômico (Censo 2022),pct_rural,dia_d1_50,133,0.0559,0.5228,0.1117,0.2040,0.6451,0.5186
+sem_alerta,Religião (Censo 2022),pct_evangelicos,cob_comp_dez21_censo,133,-0.2066,0.0170,-0.1522,0.0826,0.0476,0.3018
+sem_alerta,Religião (Censo 2022),pct_evangelicos,cob_comp_fim_censo,133,-0.2583,0.0027,-0.2025,0.0204,0.0098,0.1937
+sem_alerta,Religião (Censo 2022),pct_evangelicos,cob_ref_fim_censo,133,-0.3100,0.0003,-0.2559,0.0032,0.0017,0.0712
+sem_alerta,Religião (Censo 2022),pct_evangelicos,abandono_fim,133,0.1960,0.0238,0.1954,0.0253,0.0646,0.1977
+sem_alerta,Religião (Censo 2022),pct_evangelicos,dia_d1_50,133,0.1881,0.0302,0.1406,0.1093,0.0683,0.3460
+sem_alerta,Religião (Censo 2022),pct_catolicos,cob_comp_dez21_censo,133,0.2385,0.0057,0.1573,0.0728,0.0186,0.3018
+sem_alerta,Religião (Censo 2022),pct_catolicos,cob_comp_fim_censo,133,0.2860,0.0008,0.2025,0.0204,0.0038,0.1937
+sem_alerta,Religião (Censo 2022),pct_catolicos,cob_ref_fim_censo,133,0.2758,0.0013,0.1902,0.0295,0.0052,0.2004
+sem_alerta,Religião (Censo 2022),pct_catolicos,abandono_fim,133,-0.1847,0.0333,-0.1790,0.0408,0.0736,0.2306
+sem_alerta,Religião (Censo 2022),pct_catolicos,dia_d1_50,133,-0.1911,0.0275,-0.1370,0.1186,0.0670,0.3635
+sem_alerta,Religião (Censo 2022),pct_sem_religiao,cob_comp_dez21_censo,133,-0.2100,0.0153,-0.1162,0.1863,0.0467,0.5057
+sem_alerta,Religião (Censo 2022),pct_sem_religiao,cob_comp_fim_censo,133,-0.2560,0.0029,-0.1616,0.0652,0.0103,0.3018
+sem_alerta,Religião (Censo 2022),pct_sem_religiao,cob_ref_fim_censo,133,-0.1073,0.2191,0.0030,0.9728,0.3588,0.9756
+sem_alerta,Religião (Censo 2022),pct_sem_religiao,abandono_fim,133,0.0956,0.2738,0.0781,0.3755,0.4129,0.7058
+sem_alerta,Religião (Censo 2022),pct_sem_religiao,dia_d1_50,133,0.1166,0.1814,0.0659,0.4545,0.3094,0.7444
+sem_alerta,Atenção primária (CNES),esf_10mil_21,cob_comp_dez21_censo,133,0.3122,0.0003,0.0896,0.3085,0.0017,0.6323
+sem_alerta,Atenção primária (CNES),esf_10mil_21,cob_comp_fim_censo,133,0.3103,0.0003,0.0623,0.4793,0.0017,0.7594
+sem_alerta,Atenção primária (CNES),esf_10mil_21,cob_ref_fim_censo,133,0.3223,0.0002,0.1105,0.2091,0.0017,0.5186
+sem_alerta,Atenção primária (CNES),esf_10mil_21,abandono_fim,133,-0.0816,0.3507,-0.0404,0.6467,0.4627,0.8167
+sem_alerta,Atenção primária (CNES),esf_10mil_21,dia_d1_50,133,-0.1163,0.1824,0.0027,0.9756,0.3094,0.9756
+sem_alerta,Atenção primária (CNES),esf_10mil_20,cob_comp_dez21_censo,133,0.3110,0.0003,0.1092,0.2144,0.0017,0.5186
+sem_alerta,Atenção primária (CNES),esf_10mil_20,cob_comp_fim_censo,133,0.2954,0.0006,0.0607,0.4913,0.0028,0.7594
+sem_alerta,Atenção primária (CNES),esf_10mil_20,cob_ref_fim_censo,133,0.3071,0.0003,0.1021,0.2458,0.0018,0.5696
+sem_alerta,Atenção primária (CNES),esf_10mil_20,abandono_fim,133,-0.0578,0.5090,-0.0147,0.8677,0.6362,0.9419
+sem_alerta,Atenção primária (CNES),esf_10mil_20,dia_d1_50,133,-0.1575,0.0701,-0.0520,0.5555,0.1481,0.7922
+sem_alerta,Atenção primária (CNES),ubs_10mil_21,cob_comp_dez21_censo,133,0.1899,0.0286,-0.0246,0.7805,0.0670,0.8723
+sem_alerta,Atenção primária (CNES),ubs_10mil_21,cob_comp_fim_censo,133,0.1928,0.0262,-0.0590,0.5036,0.0668,0.7594
+sem_alerta,Atenção primária (CNES),ubs_10mil_21,cob_ref_fim_censo,133,0.1924,0.0265,-0.0515,0.5587,0.0668,0.7922
+sem_alerta,Atenção primária (CNES),ubs_10mil_21,abandono_fim,133,0.0487,0.5776,0.1188,0.1767,0.6859,0.5057
+sem_alerta,Atenção primária (CNES),ubs_10mil_21,dia_d1_50,133,-0.0871,0.3188,0.0889,0.3128,0.4389,0.6323
+sem_alerta,Atenção primária (CNES),var_esf_20_21,cob_comp_dez21_censo,133,-0.0895,0.3056,-0.0528,0.5491,0.4324,0.7922
+sem_alerta,Atenção primária (CNES),var_esf_20_21,cob_comp_fim_censo,133,-0.0524,0.5489,-0.0029,0.9742,0.6686,0.9756
+sem_alerta,Atenção primária (CNES),var_esf_20_21,cob_ref_fim_censo,133,-0.1256,0.1497,-0.0818,0.3532,0.2716,0.6848
+sem_alerta,Atenção primária (CNES),var_esf_20_21,abandono_fim,133,0.0146,0.8672,0.0113,0.8984,0.8829,0.9483
+sem_alerta,Atenção primária (CNES),var_esf_20_21,dia_d1_50,133,0.1061,0.2240,0.0687,0.4358,0.3607,0.7263
+sem_alerta,Atenção primária (CNES),cob_aps_est_sem_teto_21,cob_comp_dez21_censo,133,0.3248,0.0001,0.0913,0.2999,0.0017,0.6323
+sem_alerta,Atenção primária (CNES),cob_aps_est_sem_teto_21,cob_comp_fim_censo,133,0.3309,0.0001,0.0698,0.4281,0.0016,0.7263
+sem_alerta,Atenção primária (CNES),cob_aps_est_sem_teto_21,cob_ref_fim_censo,133,0.3640,0.0000,0.1571,0.0730,0.0004,0.3018
+sem_alerta,Atenção primária (CNES),cob_aps_est_sem_teto_21,abandono_fim,133,-0.1033,0.2369,-0.0760,0.3884,0.3751,0.7085
+sem_alerta,Atenção primária (CNES),cob_aps_est_sem_teto_21,dia_d1_50,133,-0.1251,0.1513,0.0145,0.8695,0.2716,0.9419
+sem_alerta,Histórico sanitário,mort20_100k,cob_comp_dez21_censo,133,-0.1422,0.1024,-0.0375,0.6703,0.2027,0.8167
+sem_alerta,Histórico sanitário,mort20_100k,cob_comp_fim_censo,133,-0.1467,0.0919,-0.0278,0.7528,0.1857,0.8513
+sem_alerta,Histórico sanitário,mort20_100k,cob_ref_fim_censo,133,-0.1493,0.0864,-0.0325,0.7121,0.1785,0.8365
+sem_alerta,Histórico sanitário,mort20_100k,abandono_fim,133,-0.0139,0.8736,-0.0332,0.7069,0.8829,0.8365
+sem_alerta,Histórico sanitário,mort20_100k,dia_d1_50,133,0.0238,0.7856,-0.0611,0.4878,0.8292,0.7594
+sem_alerta,Histórico sanitário,flu_idosos_cob,cob_comp_dez21_censo,133,0.0426,0.6267,0.0775,0.3789,0.7260,0.7058
+sem_alerta,Histórico sanitário,flu_idosos_cob,cob_comp_fim_censo,133,0.0239,0.7851,0.0592,0.5015,0.8292,0.7594
+sem_alerta,Histórico sanitário,flu_idosos_cob,cob_ref_fim_censo,133,0.0073,0.9337,0.0375,0.6705,0.9337,0.8167
+sem_alerta,Histórico sanitário,flu_idosos_cob,abandono_fim,133,-0.0247,0.7778,-0.0301,0.7327,0.8292,0.8488
+sem_alerta,Histórico sanitário,flu_idosos_cob,dia_d1_50,133,-0.0933,0.2855,-0.1101,0.2105,0.4173,0.5186
+sem_alerta,Porte e medida,log_pop2022,cob_comp_dez21_censo,133,-0.2908,0.0007,-0.1560,0.0740,0.0032,0.3018
+sem_alerta,Porte e medida,log_pop2022,cob_comp_fim_censo,133,-0.3211,0.0002,-0.1940,0.0258,0.0017,0.1977
+sem_alerta,Porte e medida,log_pop2022,cob_ref_fim_censo,133,-0.3117,0.0003,-0.2115,0.0149,0.0017,0.1885
+sem_alerta,Porte e medida,log_pop2022,abandono_fim,133,0.0455,0.6027,-0.0030,0.9724,0.7069,0.9756
+sem_alerta,Porte e medida,log_pop2022,dia_d1_50,133,0.1921,0.0267,0.1924,0.0271,0.0668,0.1977
+sem_alerta,Porte e medida,log_densidade,cob_comp_dez21_censo,133,-0.3115,0.0003,-0.2104,0.0159,0.0017,0.1885
+sem_alerta,Porte e medida,log_densidade,cob_comp_fim_censo,133,-0.3016,0.0004,-0.1873,0.0322,0.0022,0.2037
+sem_alerta,Porte e medida,log_densidade,cob_ref_fim_censo,133,-0.2766,0.0013,-0.1645,0.0604,0.0052,0.3018
+sem_alerta,Porte e medida,log_densidade,abandono_fim,133,0.1895,0.0289,0.1776,0.0424,0.0670,0.2306
+sem_alerta,Porte e medida,log_densidade,dia_d1_50,133,0.2079,0.0163,0.1535,0.0801,0.0470,0.3018
+sem_alerta,Porte e medida,razao_pop22_21,cob_comp_dez21_censo,133,-0.4135,0.0000,-0.3413,0.0001,0.0001,0.0059
+sem_alerta,Porte e medida,razao_pop22_21,cob_comp_fim_censo,133,-0.4080,0.0000,-0.3251,0.0001,0.0001,0.0068
+sem_alerta,Porte e medida,razao_pop22_21,cob_ref_fim_censo,133,-0.3302,0.0001,-0.2393,0.0057,0.0016,0.0905
+sem_alerta,Porte e medida,razao_pop22_21,abandono_fim,133,0.1251,0.1515,0.1166,0.1829,0.2716,0.5057
+sem_alerta,Porte e medida,razao_pop22_21,dia_d1_50,133,0.0382,0.6621,-0.0398,0.6506,0.7488,0.8167
+sem_alerta_censo,Socioeconômico (Censo 2022),renda_mediana_pc,cob_comp_dez21_censo,117,0.0031,0.9736,0.0928,0.3238,0.9914,0.6687
+sem_alerta_censo,Socioeconômico (Censo 2022),renda_mediana_pc,cob_comp_fim_censo,117,-0.1060,0.2553,-0.0089,0.9250,0.5209,0.9605
+sem_alerta_censo,Socioeconômico (Censo 2022),renda_mediana_pc,cob_ref_fim_censo,117,-0.0694,0.4571,0.0476,0.6133,0.7238,0.8328
+sem_alerta_censo,Socioeconômico (Censo 2022),renda_mediana_pc,abandono_fim,117,-0.0838,0.3690,-0.1003,0.2860,0.6149,0.6466
+sem_alerta_censo,Socioeconômico (Censo 2022),renda_mediana_pc,dia_d1_50,117,-0.3136,0.0006,-0.3495,0.0001,0.0273,0.0122
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_superior_18,cob_comp_dez21_censo,117,0.0066,0.9434,0.0679,0.4711,0.9914,0.7852
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_superior_18,cob_comp_fim_censo,117,-0.0074,0.9372,0.0688,0.4648,0.9914,0.7852
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_superior_18,cob_ref_fim_censo,117,-0.0457,0.6244,0.0386,0.6825,0.8741,0.8695
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_superior_18,abandono_fim,117,-0.1362,0.1433,-0.1464,0.1184,0.3320,0.4569
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_superior_18,dia_d1_50,117,-0.1401,0.1319,-0.1558,0.0964,0.3213,0.4028
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_sem_fund_18,cob_comp_dez21_censo,117,0.1772,0.0559,0.0990,0.2927,0.1871,0.6466
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_sem_fund_18,cob_comp_fim_censo,117,0.1908,0.0394,0.0834,0.3754,0.1496,0.7279
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_sem_fund_18,cob_ref_fim_censo,117,0.2909,0.0015,0.1840,0.0490,0.0347,0.4028
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_sem_fund_18,abandono_fim,117,0.0019,0.9834,0.0030,0.9747,0.9914,0.9806
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_sem_fund_18,dia_d1_50,117,-0.0151,0.8716,0.0023,0.9806,0.9914,0.9806
+sem_alerta_censo,Socioeconômico (Censo 2022),alfab15,cob_comp_dez21_censo,117,-0.1526,0.1005,-0.0486,0.6057,0.2727,0.8328
+sem_alerta_censo,Socioeconômico (Censo 2022),alfab15,cob_comp_fim_censo,117,-0.2227,0.0158,-0.1010,0.2826,0.0939,0.6466
+sem_alerta_censo,Socioeconômico (Censo 2022),alfab15,cob_ref_fim_censo,117,-0.2559,0.0054,-0.1186,0.2070,0.0566,0.5783
+sem_alerta_censo,Socioeconômico (Censo 2022),alfab15,abandono_fim,117,0.0362,0.6983,0.0381,0.6864,0.9087,0.8695
+sem_alerta_censo,Socioeconômico (Censo 2022),alfab15,dia_d1_50,117,-0.0565,0.5454,-0.0798,0.3964,0.7971,0.7385
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_sem_internet,cob_comp_dez21_censo,117,-0.0137,0.8837,-0.0930,0.3231,0.9914,0.6687
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_sem_internet,cob_comp_fim_censo,117,0.0668,0.4741,-0.0234,0.8040,0.7384,0.9202
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_sem_internet,cob_ref_fim_censo,117,0.0432,0.6440,-0.0635,0.5001,0.8741,0.8033
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_sem_internet,abandono_fim,117,0.1411,0.1290,0.1580,0.0917,0.3213,0.4028
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_sem_internet,dia_d1_50,117,0.2436,0.0081,0.2707,0.0034,0.0595,0.1088
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_rural,cob_comp_dez21_censo,117,0.0417,0.6549,0.0024,0.9797,0.8763,0.9806
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_rural,cob_comp_fim_censo,117,0.0475,0.6109,-0.0111,0.9062,0.8741,0.9605
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_rural,cob_ref_fim_censo,117,0.0017,0.9856,-0.0724,0.4421,0.9914,0.7651
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_rural,abandono_fim,117,0.0382,0.6823,0.0298,0.7520,0.9003,0.9164
+sem_alerta_censo,Socioeconômico (Censo 2022),pct_rural,dia_d1_50,117,0.0794,0.3945,0.1316,0.1609,0.6462,0.4931
+sem_alerta_censo,Religião (Censo 2022),pct_evangelicos,cob_comp_dez21_censo,117,-0.2068,0.0252,-0.1635,0.0809,0.1262,0.4028
+sem_alerta_censo,Religião (Censo 2022),pct_evangelicos,cob_comp_fim_censo,117,-0.2664,0.0037,-0.2064,0.0269,0.0516,0.4028
+sem_alerta_censo,Religião (Censo 2022),pct_evangelicos,cob_ref_fim_censo,117,-0.3255,0.0003,-0.2598,0.0051,0.0273,0.1200
+sem_alerta_censo,Religião (Censo 2022),pct_evangelicos,abandono_fim,117,0.1494,0.1078,0.1701,0.0691,0.2769,0.4028
+sem_alerta_censo,Religião (Censo 2022),pct_evangelicos,dia_d1_50,117,0.1804,0.0516,0.1646,0.0787,0.1814,0.4028
+sem_alerta_censo,Religião (Censo 2022),pct_catolicos,cob_comp_dez21_censo,117,0.1914,0.0387,0.1415,0.1314,0.1496,0.4569
+sem_alerta_censo,Religião (Censo 2022),pct_catolicos,cob_comp_fim_censo,117,0.2435,0.0081,0.1739,0.0631,0.0595,0.4028
+sem_alerta_censo,Religião (Censo 2022),pct_catolicos,cob_ref_fim_censo,117,0.2625,0.0042,0.1802,0.0539,0.0516,0.4028
+sem_alerta_censo,Religião (Censo 2022),pct_catolicos,abandono_fim,117,-0.1324,0.1546,-0.1553,0.0975,0.3498,0.4028
+sem_alerta_censo,Religião (Censo 2022),pct_catolicos,dia_d1_50,117,-0.1588,0.0872,-0.1392,0.1380,0.2437,0.4569
+sem_alerta_censo,Religião (Censo 2022),pct_sem_religiao,cob_comp_dez21_censo,117,-0.1129,0.2253,-0.0722,0.4429,0.4978,0.7651
+sem_alerta_censo,Religião (Censo 2022),pct_sem_religiao,cob_comp_fim_censo,117,-0.1703,0.0665,-0.1143,0.2240,0.1973,0.6079
+sem_alerta_censo,Religião (Censo 2022),pct_sem_religiao,cob_ref_fim_censo,117,-0.0985,0.2905,-0.0243,0.7965,0.5564,0.9202
+sem_alerta_censo,Religião (Censo 2022),pct_sem_religiao,abandono_fim,117,0.0856,0.3586,0.0998,0.2887,0.6083,0.6466
+sem_alerta_censo,Religião (Censo 2022),pct_sem_religiao,dia_d1_50,117,0.0449,0.6305,0.0092,0.9225,0.8741,0.9605
+sem_alerta_censo,Atenção primária (CNES),esf_10mil_21,cob_comp_dez21_censo,117,0.1737,0.0610,0.0541,0.5656,0.1871,0.8328
+sem_alerta_censo,Atenção primária (CNES),esf_10mil_21,cob_comp_fim_censo,117,0.1917,0.0384,0.0259,0.7837,0.1496,0.9191
+sem_alerta_censo,Atenção primária (CNES),esf_10mil_21,cob_ref_fim_censo,117,0.2400,0.0092,0.0612,0.5158,0.0621,0.8033
+sem_alerta_censo,Atenção primária (CNES),esf_10mil_21,abandono_fim,117,0.0086,0.9268,0.0189,0.8408,0.9914,0.9288
+sem_alerta_censo,Atenção primária (CNES),esf_10mil_21,dia_d1_50,117,0.0175,0.8513,0.0473,0.6154,0.9914,0.8328
+sem_alerta_censo,Atenção primária (CNES),esf_10mil_20,cob_comp_dez21_censo,117,0.1651,0.0752,0.0540,0.5663,0.2166,0.8328
+sem_alerta_censo,Atenção primária (CNES),esf_10mil_20,cob_comp_fim_censo,117,0.1745,0.0599,0.0137,0.8848,0.1871,0.9551
+sem_alerta_censo,Atenção primária (CNES),esf_10mil_20,cob_ref_fim_censo,117,0.2080,0.0244,0.0269,0.7755,0.1262,0.9191
+sem_alerta_censo,Atenção primária (CNES),esf_10mil_20,abandono_fim,117,0.0228,0.8071,0.0314,0.7392,0.9868,0.9164
+sem_alerta_censo,Atenção primária (CNES),esf_10mil_20,dia_d1_50,117,-0.0133,0.8867,0.0208,0.8257,0.9914,0.9229
+sem_alerta_censo,Atenção primária (CNES),ubs_10mil_21,cob_comp_dez21_censo,117,0.0434,0.6419,-0.1237,0.1879,0.8741,0.5427
+sem_alerta_censo,Atenção primária (CNES),ubs_10mil_21,cob_comp_fim_censo,117,0.0717,0.4425,-0.1608,0.0861,0.7126,0.4028
+sem_alerta_censo,Atenção primária (CNES),ubs_10mil_21,cob_ref_fim_censo,117,0.1103,0.2366,-0.1441,0.1244,0.5109,0.4569
+sem_alerta_censo,Atenção primária (CNES),ubs_10mil_21,abandono_fim,117,0.1380,0.1379,0.1943,0.0374,0.3276,0.4028
+sem_alerta_censo,Atenção primária (CNES),ubs_10mil_21,dia_d1_50,117,-0.0061,0.9478,0.1586,0.0905,0.9914,0.4028
+sem_alerta_censo,Atenção primária (CNES),var_esf_20_21,cob_comp_dez21_censo,117,-0.1004,0.2816,-0.0799,0.3960,0.5564,0.7385
+sem_alerta_censo,Atenção primária (CNES),var_esf_20_21,cob_comp_fim_censo,117,-0.0882,0.3443,-0.0574,0.5424,0.5948,0.8311
+sem_alerta_censo,Atenção primária (CNES),var_esf_20_21,cob_ref_fim_censo,117,-0.0981,0.2928,-0.0623,0.5083,0.5564,0.8033
+sem_alerta_censo,Atenção primária (CNES),var_esf_20_21,abandono_fim,117,0.0224,0.8102,0.0275,0.7704,0.9868,0.9191
+sem_alerta_censo,Atenção primária (CNES),var_esf_20_21,dia_d1_50,117,0.0635,0.4964,0.0471,0.6170,0.7607,0.8328
+sem_alerta_censo,Atenção primária (CNES),cob_aps_est_sem_teto_21,cob_comp_dez21_censo,117,0.1743,0.0602,0.0477,0.6125,0.1871,0.8328
+sem_alerta_censo,Atenção primária (CNES),cob_aps_est_sem_teto_21,cob_comp_fim_censo,117,0.2048,0.0268,0.0297,0.7524,0.1272,0.9164
+sem_alerta_censo,Atenção primária (CNES),cob_aps_est_sem_teto_21,cob_ref_fim_censo,117,0.2790,0.0023,0.1089,0.2467,0.0441,0.6335
+sem_alerta_censo,Atenção primária (CNES),cob_aps_est_sem_teto_21,abandono_fim,117,-0.0065,0.9441,-0.0083,0.9302,0.9914,0.9605
+sem_alerta_censo,Atenção primária (CNES),cob_aps_est_sem_teto_21,dia_d1_50,117,0.0129,0.8898,0.0639,0.4973,0.9914,0.8033
+sem_alerta_censo,Histórico sanitário,mort20_100k,cob_comp_dez21_censo,117,0.0010,0.9914,0.0464,0.6224,0.9914,0.8328
+sem_alerta_censo,Histórico sanitário,mort20_100k,cob_comp_fim_censo,117,0.0028,0.9765,0.0783,0.4055,0.9914,0.7408
+sem_alerta_censo,Histórico sanitário,mort20_100k,cob_ref_fim_censo,117,0.0116,0.9015,0.1044,0.2670,0.9914,0.6466
+sem_alerta_censo,Histórico sanitário,mort20_100k,abandono_fim,117,-0.0891,0.3396,-0.0748,0.4268,0.5948,0.7651
+sem_alerta_censo,Histórico sanitário,mort20_100k,dia_d1_50,117,0.0035,0.9705,-0.0837,0.3740,0.9914,0.7279
+sem_alerta_censo,Histórico sanitário,flu_idosos_cob,cob_comp_dez21_censo,117,-0.0321,0.7312,-0.0137,0.8845,0.9387,0.9551
+sem_alerta_censo,Histórico sanitário,flu_idosos_cob,cob_comp_fim_censo,117,-0.0576,0.5372,-0.0399,0.6719,0.7971,0.8695
+sem_alerta_censo,Histórico sanitário,flu_idosos_cob,cob_ref_fim_censo,117,-0.0622,0.5053,-0.0434,0.6450,0.7620,0.8510
+sem_alerta_censo,Histórico sanitário,flu_idosos_cob,abandono_fim,117,0.0287,0.7586,0.0214,0.8205,0.9609,0.9229
+sem_alerta_censo,Histórico sanitário,flu_idosos_cob,dia_d1_50,117,-0.1055,0.2577,-0.0899,0.3391,0.5209,0.6855
+sem_alerta_censo,Porte e medida,log_pop2022,cob_comp_dez21_censo,117,-0.1510,0.1040,-0.1092,0.2435,0.2745,0.6335
+sem_alerta_censo,Porte e medida,log_pop2022,cob_comp_fim_censo,117,-0.2113,0.0222,-0.1743,0.0614,0.1241,0.4028
+sem_alerta_censo,Porte e medida,log_pop2022,cob_ref_fim_censo,117,-0.2466,0.0074,-0.2088,0.0245,0.0595,0.4028
+sem_alerta_censo,Porte e medida,log_pop2022,abandono_fim,117,-0.0237,0.7998,-0.0485,0.6054,0.9868,0.8328
+sem_alerta_censo,Porte e medida,log_pop2022,dia_d1_50,117,0.1067,0.2522,0.1834,0.0487,0.5209,0.4028
+sem_alerta_censo,Porte e medida,log_densidade,cob_comp_dez21_censo,117,-0.2451,0.0077,-0.1746,0.0620,0.0595,0.4028
+sem_alerta_censo,Porte e medida,log_densidade,cob_comp_fim_censo,117,-0.2300,0.0126,-0.1348,0.1509,0.0798,0.4779
+sem_alerta_censo,Porte e medida,log_densidade,cob_ref_fim_censo,117,-0.2950,0.0012,-0.1945,0.0373,0.0347,0.4028
+sem_alerta_censo,Porte e medida,log_densidade,abandono_fim,117,0.0949,0.3087,0.0958,0.3082,0.5750,0.6655
+sem_alerta_censo,Porte e medida,log_densidade,dia_d1_50,117,0.0900,0.3344,0.1235,0.1885,0.5948,0.5427
+sem_alerta_censo,Porte e medida,razao_pop22_21,cob_comp_dez21_censo,117,-0.1908,0.0393,-0.1602,0.0858,0.1496,0.4028
+sem_alerta_censo,Porte e medida,razao_pop22_21,cob_comp_fim_censo,117,-0.1830,0.0482,-0.1380,0.1395,0.1763,0.4569
+sem_alerta_censo,Porte e medida,razao_pop22_21,cob_ref_fim_censo,117,-0.1944,0.0357,-0.1421,0.1282,0.1496,0.4569
+sem_alerta_censo,Porte e medida,razao_pop22_21,abandono_fim,117,0.0932,0.3177,0.1022,0.2748,0.5805,0.6466
+sem_alerta_censo,Porte e medida,razao_pop22_21,dia_d1_50,117,-0.2618,0.0043,-0.2992,0.0011,0.0516,0.0524

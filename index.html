@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quem ficou para trás? · Vacinação contra a Covid-19 no Ceará</title>
+  <meta name="description" content="Uma investigação sobre a desigualdade da vacinação contra a Covid-19 nos 184 municípios do Ceará, 2021–2024.">
+  <meta name="color-scheme" content="light">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tom-select@2.3.1/dist/css/tom-select.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%279%27 fill=%27%23B5532E%27/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="pular" href="#cap1">Pular para o conteúdo</a>
+
+  <!-- ornamentos reutilizáveis (decorativos) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="orn-sol" viewBox="-60 -60 120 120">
+        <g fill="currentColor">
+          <circle r="21"/>
+          <g id="raios">
+            <path d="M-5 -26 L0 -56 L5 -26Z"/><path d="M-4 -26 L0 -44 L4 -26Z" transform="rotate(22.5)"/>
+          </g>
+          <use href="#raios" transform="rotate(45)"/><use href="#raios" transform="rotate(90)"/>
+          <use href="#raios" transform="rotate(135)"/><use href="#raios" transform="rotate(180)"/>
+          <use href="#raios" transform="rotate(225)"/><use href="#raios" transform="rotate(270)"/>
+          <use href="#raios" transform="rotate(315)"/>
+        </g>
+        <!-- entalhes de xilogravura: anel e goivadas, sem rosto -->
+        <circle r="14.5" fill="none" stroke="var(--areia)" stroke-width="2.2"/>
+        <g stroke="var(--areia)" stroke-width="2" stroke-linecap="round">
+          <path d="M0 -8 V-3"/><path d="M0 3 V8"/><path d="M-8 0 H-3"/><path d="M3 0 H8"/></g>
+      </symbol>
+      <symbol id="orn-lupa" viewBox="0 0 100 100">
+        <g fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round">
+          <circle cx="42" cy="42" r="26"/><path d="M62 62 L88 88"/></g>
+        <path d="M30 34 Q36 24 48 24" stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="orn-jangada" viewBox="0 0 120 100">
+        <g fill="currentColor">
+          <path d="M58 8 L60 78 L22 72 Q40 40 58 8Z"/>
+          <path d="M64 18 L64 76 L94 72 Q82 44 64 18Z" opacity=".85"/>
+          <path d="M8 80 L112 80 L104 88 L16 88Z"/>
+        </g>
+        <path d="M2 96 Q16 90 30 96 T58 96 T86 96 T118 96" stroke="currentColor" stroke-width="4" fill="none"/>
+      </symbol>
+      <symbol id="orn-mandacaru" viewBox="0 0 100 120">
+        <g fill="none" stroke="currentColor" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M50 116 V14"/><path d="M50 74 H28 Q22 74 22 66 V40"/><path d="M50 60 H72 Q78 60 78 52 V30"/></g>
+        <g stroke="var(--areia)" stroke-width="2"><path d="M50 22 V108"/><path d="M22 46 V68"/><path d="M78 36 V54"/></g>
+      </symbol>
+    </defs>
+  </svg>
+
+  <header class="abertura" id="topo">
+    <svg class="orn orn-sol" aria-hidden="true"><use href="#orn-sol"/></svg>
+    <p class="kicker">Vacinação contra a Covid-19 nos 184 municípios do Ceará · 2021–2024</p>
+    <h1>Quem ficou para trás?</h1>
+    <p class="hero"><span class="hero-num" aria-live="off">—</span> de doses.<br><span class="hero-mas">Mas não por igual.</span></p>
+    <p class="dek">Todo mundo tinha um suspeito para a desigualdade: a pobreza, o interior, a política, a rede de saúde,
+      o costume de se vacinar. Testamos cada um. A resposta estava em outro lugar — e começava na própria régua.</p>
+    <p class="autores">Por Lucas Santos Maia e Donnavan Souza de Carvalho</p>
+    <p class="atalho"><a href="#cap7">Prefere explorar os dados? Ir direto para o seu município →</a></p>
+    <p class="nota-hero">Doses de vacina contra a Covid-19 aplicadas a residentes do Ceará entre
+      <span data-v="cap1.periodo.0" data-f="dataCurta"></span> e <span data-v="cap1.periodo.1" data-f="dataCurta"></span>.
+      Fonte: microdados do OpenDataSUS.</p>
+    <a class="desca" href="#cap1" aria-label="Começar a leitura">↓</a>
+  </header>
+  <p id="erro-carga" class="erro" hidden>Não foi possível carregar os dados. Se abriu o arquivo direto do disco,
+    use um servidor local (por exemplo, <code>python -m http.server</code>) ou a versão publicada.</p>
+
+  <main>
+    <!-- ============ CAPÍTULO 1 ============ -->
+    <section id="cap1" class="capitulo">
+      <header class="cap-abertura">
+        <svg class="orn orn-cap" aria-hidden="true"><use href="#orn-sol"/></svg>
+        <p class="cap-num">Capítulo 1</p>
+        <h2>O caso</h2>
+        <p class="cap-dek">Em pouco mais de três anos, a vacina chegou a quase todo o Ceará. Mas não chegou a todos os
+          municípios no mesmo ritmo — e a distância entre eles se fixou cedo.</p>
+      </header>
+
+      <div class="scrolly">
+        <figure class="grafico sticky" id="g-linha">
+          <figcaption class="grafico-titulo">Cobertura acumulada no Ceará <span>pessoas vacinadas ÷ população do Censo 2022</span></figcaption>
+        </figure>
+        <div class="passos">
+          <div class="passo"><p>A primeira dose foi aplicada no Ceará em <span data-v="cap1.periodo.0" data-f="data"></span>.
+            A linha terracota conta as pessoas que já tinham recebido ao menos uma dose; a azul, as que completaram o
+            esquema. As duas como proporção da população contada pelo Censo 2022.</p></div>
+          <div class="passo"><p>A média do estado esconde os municípios. A <strong>faixa azul-clara</strong> mostra onde
+            estavam 80% deles no esquema completo, do 10º ao 90º percentil. Em junho de 2021, ela tinha
+            <span data-v="cap1.marcos.largura_jun21" data-f="pp"></span> pontos percentuais de largura. Em dezembro,
+            <span data-v="cap1.marcos.largura_dez21" data-f="pp"></span>.</p></div>
+          <div class="passo"><p>Depois de 2021, a faixa quase não abriu mais: terminou com
+            <span data-v="cap1.marcos.largura_fim" data-f="pp"></span> pontos. O estado chegou a
+            <span data-v="cap1.marcos.estado_d1_fim" data-f="pct"></span> da população com a 1ª dose e
+            <span data-v="cap1.marcos.estado_comp_fim" data-f="pct"></span> com o esquema completo.</p></div>
+          <div class="passo"><p>A ordem também congelou. A correlação entre a posição de cada município em dezembro de
+            2021 e a posição final é de <strong><span data-v="cap1.marcos.rho_dez21_fim" data-f="dec2"></span></strong>
+            (1 seria a mesma ordem). <strong>Quem estava atrás no fim de 2021 continuou atrás.</strong></p>
+            <p class="passo-nota">Correlação de postos de Spearman entre os 184 municípios, esquema completo.</p></div>
+        </div>
+      </div>
+
+      <div class="bloco-largo">
+        <h3>O ritmo, dia a dia</h3>
+        <p class="texto">Cada quadrado é um dia; quanto mais escuro, mais doses. O dia com mais aplicações foi
+          <span data-v="cap1.picos.0.data" data-f="data"></span>, com <span data-v="cap1.picos.0.doses" data-f="int"></span>
+          doses. Os cinco maiores dias da série caíram em
+          <span data-v="cap1.picos.1.data" data-f="dataCurta"></span>, <span data-v="cap1.picos.2.data" data-f="dataCurta"></span>,
+          <span data-v="cap1.picos.3.data" data-f="dataCurta"></span> e <span data-v="cap1.picos.4.data" data-f="dataCurta"></span>,
+          além do pico.</p>
+        <figure class="grafico" id="g-calendario"></figure>
+      </div>
+    </section>
+
+    <div class="renda" aria-hidden="true"></div>
+
+    <!-- ============ CAPÍTULO 2 (fase 2) ============ -->
+    <section id="cap2" class="capitulo">
+      <header class="cap-abertura">
+        <svg class="orn orn-cap" aria-hidden="true"><use href="#orn-lupa"/></svg>
+        <p class="cap-num">Capítulo 2</p>
+        <h2>Os suspeitos de sempre</h2>
+        <p class="cap-dek">Pobreza, interior, política, rede de saúde, costume vacinal. Cada hipótese, testada contra os dados.</p>
+      </header>
+
+      <div class="scrolly">
+        <figure class="grafico sticky" id="g-dispersao">
+          <figcaption class="grafico-titulo">Esquema completo por município <span>pessoas com esquema completo ÷ população do Censo 2022; cada ponto é um município</span></figcaption>
+          <div class="legenda"><span class="leg-item"><span class="leg-chave anel"></span>Acima de 100% (valor real no detalhe)</span></div>
+          <div class="disp-svg"></div>
+          <div class="carimbo" aria-hidden="true"><span>Descartado</span></div>
+        </figure>
+        <div class="passos">
+          <div class="passo" data-x="intro"><p>Cada ponto é um dos 184 municípios, na altura da sua cobertura do esquema
+            completo. Vamos interrogar os suspeitos. Para cada um, medimos a <strong>correlação de postos</strong> (ρ):
+            0 é nenhuma relação; 1 ou −1, relação perfeita. E repetimos a conta descontando o porte do município e o
+            erro de população, que já distorcem a medida por conta própria.</p></div>
+          <div class="passo" data-x="renda" data-carimbo="1"><p><strong>A pobreza.</strong> Se a renda explicasse a
+            desigualdade, os pontos subiriam da esquerda para a direita. Não sobem: ρ =
+            <span data-v="cap2.s.renda.stats.rho" data-f="rho"></span>, e
+            <span data-v="cap2.s.renda.stats.rho_parcial" data-f="rho"></span> com os controles.</p>
+            <p>A renda aparece só no <em>ritmo</em>: municípios mais ricos chegaram antes a 50% da população com a 1ª
+            dose (ρ = <span data-v="cap2.s.renda.ritmo.rho_parcial" data-f="rho"></span> entre renda e o número de dias até
+            lá, com controles). No resultado final, a diferença sumiu.</p></div>
+          <div class="passo" data-x="interior" data-carimbo="1"><p><strong>O interior.</strong> A distância até
+            Fortaleza não organiza os pontos: ρ = <span data-v="cap2.s.interior.stats.rho" data-f="rho"></span>
+            (<span data-v="cap2.s.interior.stats.rho_parcial" data-f="rho"></span> com controles). E a capital não ficou
+            atrás: Fortaleza tem <span data-v="cap2.fortaleza.comp" data-f="pct"></span> de esquema completo, contra
+            <span data-v="cap2.fortaleza.interior_comp" data-f="pct"></span> no resto do estado, e o menor abandono
+            entre os <span data-v="cap2.fortaleza.n_rmf"></span> municípios da Região Metropolitana
+            (<span data-v="cap2.fortaleza.abandono" data-f="pct1"></span>).</p></div>
+          <div class="passo" data-x="politica" data-carimbo="1"><p><strong>A política.</strong> Onde Bolsonaro teve
+            mais votos em 2018, a cobertura foi um pouco menor: ρ = <span data-v="cap2.s.politica.stats.rho" data-f="rho"></span>.
+            Mas no Ceará esse voto foi maior nos municípios mais populosos, mais densos e mais alfabetizados (ρ de
+            <span data-v="cap2.s.politica.controles_vs_voto.log_pop2022" data-f="rho"></span>,
+            <span data-v="cap2.s.politica.controles_vs_voto.log_densidade" data-f="rho"></span> e
+            <span data-v="cap2.s.politica.controles_vs_voto.alfab15" data-f="rho"></span>), que vacinaram menos por
+            habitante. Descontados porte e urbanização, a associação vai a
+            <span data-v="cap2.s.politica.stats.rho_parcial" data-f="rho"></span>.</p></div>
+          <div class="passo" data-x="saude" data-carimbo="1"><p><strong>A rede de saúde.</strong> Mais equipes de Saúde
+            da Família por habitante andam com mais vacina: ρ = <span data-v="cap2.s.saude.stats.rho" data-f="rho"></span>.
+            Só que municípios pequenos têm mais equipes por habitante (ρ =
+            <span data-v="cap2.s.saude.rho_porte" data-f="rho"></span> entre equipes e população). Descontado o porte,
+            sobra <span data-v="cap2.s.saude.stats.rho_parcial" data-f="rho"></span>, sem significância estatística
+            (p = <span data-v="cap2.s.saude.stats.p_parcial" data-f="p"></span>). A medida que existe reflete o tamanho
+            do município, não o desempenho da rede.</p></div>
+          <div class="passo" data-x="habito" data-carimbo="1"><p><strong>O hábito.</strong> Talvez onde se vacinava contra
+            a gripe também se vacinou contra a Covid. Mas em 2019 quase todos já estavam no teto:
+            <span data-v="cap2.s.habito.n_teto"></span> dos 184 municípios vacinaram ao menos 90% dos idosos. Sem variação,
+            não há o que explicar: ρ = <span data-v="cap2.s.habito.stats.rho" data-f="rho"></span>.</p></div>
+          <div class="passo" data-x="habito"><p>Cinco suspeitos, cinco descartes. Nenhuma das explicações de sempre diz
+            quem ficou para trás. Antes de procurar outra, era preciso conferir a régua.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="renda" aria-hidden="true"></div>
+
+    <!-- ============ CAPÍTULO 3 ============ -->
+    <section id="cap3" class="capitulo">
+      <header class="cap-abertura">
+        <svg class="orn orn-cap" aria-hidden="true"><use href="#orn-jangada"/></svg>
+        <p class="cap-num">Capítulo 3</p>
+        <h2>A reviravolta: a medida mentia</h2>
+        <p class="cap-dek">Antes de procurar culpados no território, era preciso desconfiar da régua.</p>
+      </header>
+
+      <div class="scrolly scrolly-mapa">
+        <figure class="grafico sticky" id="g-mapa">
+          <figcaption class="grafico-titulo">1ª dose por município <span class="estado-rotulo"></span></figcaption>
+          <div class="contador" role="status" aria-live="polite">
+            <span class="contador-num">—</span>
+            <span class="contador-rot">municípios acima de 100%</span>
+          </div>
+          <div class="mapa-svg"></div>
+          <div class="legenda legenda-mapa-wrap">
+            <div class="legenda-mapa"></div>
+            <span class="leg-item"><span class="leg-chave contorno"></span>Acima de 100% (valor real no detalhe)</span>
+            <span class="leg-item"><span class="leg-chave hachura"></span>Sensível ao denominador</span>
+            <p class="leg-nota">A cor tem teto em 100% (e piso em 60%): valores acima de 100% usam a cor do topo e
+              aparecem com o valor real no detalhe de cada município.</p>
+          </div>
+        </figure>
+        <div class="passos">
+          <div class="passo" data-de="a" data-para="a" data-foco="2303600,2304400"><p>Comecemos pela conta mais comum:
+            registros de 1ª dose divididos pela população que o IBGE estimava para 2021. Por ela, Catarina fica em último
+            lugar, com <span data-v="cap3.destaques.catarina.a" data-f="pct"></span>, e Fortaleza aparece atrás do interior:
+            <span data-v="cap3.destaques.fortaleza.a" data-f="pct"></span>
+            (<span data-v="cap3.destaques.fortaleza.rank_a" data-f="ordinal"></span> lugar), contra
+            <span data-v="cap3.destaques.fortaleza.interior_a" data-f="pct"></span> no resto do estado.</p></div>
+          <div class="passo" data-de="a" data-para="b" data-foco="2303600"><p>Só que a estimativa errou. Em Catarina, o
+            Censo 2022 encontrou <span data-v="cap3.destaques.catarina.razao_pop" data-f="pct"></span> da população
+            estimada. Troque o denominador pelo Censo e o mapa se reescreve.</p></div>
+          <div class="passo" data-de="b" data-para="b"><p>Com o Censo, os municípios acima de 100% passam de
+            <span data-v="cap3.contagens.a"></span> para <strong><span data-v="cap3.contagens.b"></span></strong>.
+            Nenhum lugar vacina mais moradores do que tem: cobertura acima de 100% é sinal de problema na contagem.</p></div>
+          <div class="passo" data-de="b" data-para="c"><p>Os microdados permitem contar <strong>pessoas</strong>, e não
+            registros: a mesma pessoa às vezes aparece com mais de uma 1ª dose. Sem a duplicidade, ficam
+            <strong><span data-v="cap3.contagens.c"></span></strong> municípios acima de 100%.</p></div>
+          <div class="passo" data-de="c" data-para="c" data-robusto="1"><p>Desses, <strong><span data-v="cap3.contagens.robusto"></span></strong>
+            continuam acima de 100% com qualquer um dos dois denominadores. Somado, o excesso é de
+            <span data-v="cap3.excesso.pessoas"></span> pessoas, <span data-v="cap3.excesso.pct_pop" data-f="pct2"></span>
+            da população do estado: pouco para mudar o retrato, mas o bastante para desconfiar dos extremos.</p></div>
+          <div class="passo" data-de="c" data-para="c" data-foco="2303600,2304400"><p>Corrigida a medida,
+            Catarina vai a <span data-v="cap3.destaques.catarina.c" data-f="pct"></span>
+            (<span data-v="cap3.destaques.catarina.rank_c" data-f="ordinal"></span> lugar) e Fortaleza a
+            <span data-v="cap3.destaques.fortaleza.c" data-f="pct"></span>, em linha com o interior
+            (<span data-v="cap3.destaques.fortaleza.interior_c" data-f="pct"></span>).</p></div>
+          <div class="passo" data-de="c" data-para="c" data-foco="2306256"><p>Itaitinga faz o caminho inverso: o Censo contou <span data-v="cap3.destaques.itaitinga.pop2022"></span>
+            moradores, contra <span data-v="cap3.destaques.itaitinga.pop2021"></span> estimados. Pela estimativa, a
+            cobertura seria de <span data-v="cap3.destaques.itaitinga.a" data-f="pct"></span>; pelo Censo, de
+            <span data-v="cap3.destaques.itaitinga.c" data-f="pct"></span>. Os dados não dizem qual conta está certa,
+            por isso o município aparece hachurado: <strong>sensível ao denominador</strong>.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="renda" aria-hidden="true"></div>
+
+    <!-- ============ CAPÍTULOS 4–7 (fases 2 e 3) ============ -->
+    <section id="cap4" class="capitulo">
+      <header class="cap-abertura">
+        <svg class="orn orn-cap" aria-hidden="true"><use href="#orn-mandacaru"/></svg>
+        <p class="cap-num">Capítulo 4</p>
+        <h2>Quem ficou para trás de verdade</h2>
+        <p class="cap-dek">Com a régua corrigida, os atrasados aparecem. Não onde se esperava.</p>
+      </header>
+
+      <div class="scrolly">
+        <figure class="grafico sticky" id="g-atrasados">
+          <figcaption class="grafico-titulo">Os municípios que ficaram para trás <span>esquema completo abaixo de 70%</span></figcaption>
+          <div class="legenda legenda-perfis"></div>
+          <div class="atr-svg"></div>
+        </figure>
+        <div class="passos">
+          <div class="passo" data-vista="disp"><p>Voltemos aos 184 pontos do último suspeito. Cada um é um município, com
+            a sua cobertura do esquema completo na altura.</p></div>
+          <div class="passo" data-vista="mapa"><p>Agora, cada ponto vai para o seu lugar no mapa do Ceará.</p></div>
+          <div class="passo" data-vista="treze"><p><strong>Treze municípios</strong> ficaram com o esquema completo abaixo
+            de 70%. Não formam um bloco: estão do litoral ao Cariri, do sertão à Região Metropolitana.</p>
+            <p>Comparados com os demais, tiveram menos gente com a 1ª dose
+            (<span data-v="cap4.grupos.baixo_d1" data-f="pct"></span> contra <span data-v="cap4.ref.d1" data-f="pct"></span>,
+            medianas) e perderam mais gente entre as doses (abandono de <span data-v="cap4.grupos.baixo_aband" data-f="pct"></span>
+            contra <span data-v="cap4.ref.abandono" data-f="pct"></span>).</p>
+            <p class="passo-nota">Os 13 seguem o critério das verificações (registros ÷ Censo 2022). Contando pessoas, a
+            cobertura cai em todo o estado e <span data-v="cap4.n_pessoas_abaixo_70"></span> municípios ficam abaixo de 70%.</p></div>
+          <div class="passo" data-vista="funil"><p>O funil conta a história de cada um: <strong>○</strong> é a 1ª dose,
+            <strong>●</strong> o esquema completo, e a linha entre eles é quem não voltou.
+            <span data-v="cap4.perfis.dois"></span> municípios têm <strong>os dois problemas</strong>: começaram atrás e
+            perderam gente no caminho. <span data-v="cap4.perfis.atras"></span> <strong>só começaram atrás</strong>.
+            <span data-v="cap4.perfis.naovoltou"></span>, Aurora, <strong>só não voltou</strong>.</p></div>
+          <div class="passo" data-vista="funil"><p>Somando a distância de todos eles para os demais municípios,
+            <strong><span data-v="cap4.decomp.pct_d1" data-f="pct"></span></strong> vem da 1ª dose que não chegou e
+            <strong><span data-v="cap4.decomp.pct_aband" data-f="pct"></span></strong> do abandono.</p>
+            <p>A história não é só "não voltaram". É: <strong>começaram atrás e não conseguiram trazer as pessoas de
+            volta</strong>.</p></div>
+        </div>
+      </div>
+
+      <div class="bloco-largo">
+        <h3>Sem manchas no mapa</h3>
+        <p class="texto">Se o atraso tivesse uma causa regional, municípios vizinhos se pareceriam. O <strong>I de
+          Moran</strong> mede isso: perto de 0, vizinhos não se parecem; quanto mais perto de 1, mais o mapa forma manchas.
+          A cobertura fica em <strong><span data-v="cap4.moran.cobertura" data-f="rho"></span></strong>. O voto de 2018
+          (<span data-v="cap4.moran.voto" data-f="rho"></span>) e a renda (<span data-v="cap4.moran.renda" data-f="rho"></span>)
+          formam manchas nítidas no mesmo território.</p>
+        <figure class="grafico tres-mapas" id="g-moran"></figure>
+        <p class="nota-grafico">Cores por classes de quantil (cada tom reúne cerca de 1/7 dos municípios), para comparar
+          o desenho no espaço, e não o nível. Vizinhança: municípios que fazem fronteira.</p>
+      </div>
+    </section>
+
+    <div class="renda" aria-hidden="true"></div>
+
+    <section id="cap5" class="capitulo">
+      <header class="cap-abertura">
+        <p class="cap-num">Capítulo 5</p>
+        <h2>O que fica em aberto</h2>
+        <p class="cap-dek">Uma diferença que os dados mostram, mas não explicam. E os limites do que dá para dizer.</p>
+      </header>
+      <div class="bloco-largo">
+        <h3>O reforço, o mais desigual</h3>
+        <p class="texto">Os 10% de municípios que mais aplicaram doses de reforço chegaram a
+          <span data-v="cap5.p90" data-f="dec2"></span> dose por habitante ou mais. Os 10% que menos aplicaram ficaram em
+          <span data-v="cap5.p10" data-f="dec2"></span> ou menos. O décimo de cima aplicou
+          <strong><span data-v="cap5.razao_p90_p10" data-f="dec1"></span> vezes</strong> as doses por habitante do décimo de baixo. Reforço é contado em doses por habitante, não em pessoas: uma pessoa pode ter tomado vários.</p>
+        <figure class="grafico" id="g-reforco">
+          <figcaption class="grafico-titulo">Reforços por habitante <span>doses de reforço ÷ população do Censo 2022; cada ponto é um município</span></figcaption>
+          <div class="legenda">
+            <span class="leg-item"><span class="leg-chave bloco" style="background:#B5532E;border-radius:50%"></span>Os 10% de cada ponta</span>
+            <span class="leg-item"><span class="leg-chave bloco" style="background:#1E72A3;border-radius:50%"></span>Os 80% do meio</span>
+          </div>
+        </figure>
+        <p class="texto">É também o único desfecho com sinal político. Onde Bolsonaro ganhou votos entre 2018 e 2022, houve
+          menos reforço: ρ = <span data-v="cap5.var_bolsonaro.rho" data-f="rho"></span>, e
+          <span data-v="cap5.var_bolsonaro.rho_parcial" data-f="rho"></span> descontando porte, erro de população, religião,
+          renda e equipes de saúde. As duas coisas aconteceram no mesmo período, em 2022. Os dados não dizem qual veio
+          antes nem se uma levou à outra.</p>
+        <figure class="grafico" id="g-ref-voto">
+          <figcaption class="grafico-titulo">Variação do voto e reforço <span>cada ponto é um município</span></figcaption>
+        </figure>
+
+        <h3 class="h3-limites">Os limites</h3>
+        <ul class="limites">
+          <li><strong>Nada sobre indivíduos.</strong> Comparamos municípios. Uma associação entre o voto de um município e
+            a sua vacinação não diz como cada pessoa votou ou se vacinou (a chamada falácia ecológica).</li>
+          <li><strong>Nada causal.</strong> É uma análise exploratória de 184 municípios. Correlação não estabelece causa.</li>
+          <li><strong>Pouco explicado.</strong> Juntas, as variáveis medidas explicam no máximo
+            <span data-v="cap5.r2_max" data-f="pct"></span> das diferenças entre municípios.</li>
+          <li><strong>O que não medimos.</strong> Gestão local da campanha, busca ativa de quem faltou à 2ª dose,
+            qualidade do registro. A conclusão aponta para esses fatores, mas não os prova.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="renda" aria-hidden="true"></div>
+
+    <section id="cap6" class="capitulo conclusao">
+      <header class="cap-abertura">
+        <svg class="orn orn-cap" aria-hidden="true"><use href="#orn-sol"/></svg>
+        <p class="cap-num">Capítulo 6</p>
+        <h2>Quem ficou para trás?</h2>
+      </header>
+      <div class="bloco-largo">
+        <p class="conclusao-frase">Não os mais pobres, nem o interior, nem um campo político, mas
+          <strong>municípios específicos que começaram atrás e não conseguiram trazer as pessoas de volta</strong>.</p>
+        <ol class="veredito">
+          <li><span class="v-tit">A pobreza</span><span class="v-res">Só no ritmo; no fim, some</span></li>
+          <li><span class="v-tit">O interior</span><span class="v-res">Sem efeito; a capital não ficou atrás</span></li>
+          <li><span class="v-tit">A política</span><span class="v-res">Some com porte e urbanização</span></li>
+          <li><span class="v-tit">A rede de saúde</span><span class="v-res">Reflete o porte do município</span></li>
+          <li><span class="v-tit">O hábito</span><span class="v-res">Todos já estavam no teto</span></li>
+          <li class="v-chave"><span class="v-tit">A medida</span><span class="v-res">Parte da desigualdade estava na régua</span></li>
+        </ol>
+        <p class="texto">O que sobra depois de corrigir a medida é um atraso disperso, sem mancha no mapa e sem perfil
+          social claro. Para encontrá-lo, não basta olhar renda ou voto: é preciso olhar município por município, dose por
+          dose.</p>
+      </div>
+    </section>
+    <div class="renda" aria-hidden="true"></div>
+
+    <section id="cap7" class="capitulo explore">
+      <header class="cap-abertura">
+        <p class="cap-num">Capítulo 7</p>
+        <h2>Explore você mesmo</h2>
+        <p class="cap-dek">Procure o seu município, troque a variável do eixo horizontal e filtre pelas faixas que quiser.
+          As visões conversam entre si: o que você seleciona em uma aparece em todas.</p>
+      </header>
+
+      <div class="exp">
+        <div class="exp-barra" role="search">
+          <div class="campo campo-busca">
+            <label for="busca">Município</label>
+            <select id="busca"></select>
+          </div>
+          <div class="campo campo-x">
+            <label for="sel-x">Eixo horizontal da dispersão</label>
+            <select id="sel-x"></select>
+          </div>
+          <div class="barra-fim">
+            <p id="exp-contagem" class="exp-contagem" aria-live="polite"></p>
+            <button id="limpar" type="button" class="botao-sec" disabled>
+              <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8a5 5 0 1 0 1.6-3.7M3 2.5v3h3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Limpar filtros
+            </button>
+          </div>
+        </div>
+        <p id="exp-status" class="sr-only" aria-live="polite"></p>
+
+        <div class="exp-grade">
+          <figure id="exp-mapa" class="grafico exp-painel">
+            <figcaption class="grafico-titulo">Esquema completo <span>pessoas ÷ Censo 2022 · clique em um município</span></figcaption>
+            <div class="exp-svg"></div>
+            <div class="legenda">
+              <span class="leg-item"><span class="leg-chave rampa"></span>60% → 100% (teto da cor)</span>
+              <span class="leg-item"><span class="leg-chave contorno"></span>Acima de 100%</span>
+            </div>
+          </figure>
+          <figure id="exp-disp" class="grafico exp-painel">
+            <figcaption class="grafico-titulo">Esquema completo × variável escolhida <span>cada ponto é um município</span></figcaption>
+            <div class="exp-svg"></div>
+          </figure>
+          <aside id="exp-detalhe" class="exp-painel exp-detalhe" aria-labelledby="det-titulo">
+            <h3 id="det-titulo" class="sr-only">Detalhe do município</h3>
+            <div class="det-vazio"><p>Selecione um município no mapa, na dispersão, nas linhas abaixo, na busca ou na tabela.</p></div>
+            <div class="det-cheio" style="display:none">
+              <p class="det-nome"></p>
+              <p class="det-tags"></p>
+              <dl class="det-numeros"></dl>
+              <p class="det-serie-tit">Cobertura acumulada, 2021–2024 <span>(linha cinza: esquema completo no estado)</span></p>
+              <div class="det-serie"></div>
+            </div>
+          </aside>
+        </div>
+
+        <figure id="exp-paralelas" class="grafico exp-painel">
+          <figcaption class="grafico-titulo">Sete medidas de uma vez <span>cada linha é um município; arraste sobre um eixo para filtrar
+            (mapa, dispersão e tabela seguem o filtro). Linhas mais escuras: os 13 que ficaram para trás.</span></figcaption>
+          <div class="exp-svg"></div>
+        </figure>
+
+        <details class="exp-detalhes" open>
+          <summary>Filtros por faixa <span class="summary-nota">os mesmos do arraste nas linhas; use o mouse ou as setas do teclado</span></summary>
+          <div id="exp-filtros-campos" class="exp-filtros"></div>
+          <p class="nota-grafico">Barras claras: os 184 municípios. Barras azuis: os que passam em todos os filtros ativos.</p>
+        </details>
+
+        <details id="exp-tabela" class="exp-detalhes">
+          <summary>Ver todos os dados em tabela</summary>
+          <p class="tab-contagem" aria-live="polite"></p>
+          <div class="tabela-rolagem" tabindex="0" role="region" aria-label="Tabela de municípios">
+            <table>
+              <caption class="sr-only">Indicadores por município. Clique no cabeçalho para ordenar; no nome, para selecionar.</caption>
+              <thead><tr></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <p class="nota-grafico">Coberturas em pessoas ÷ Censo 2022. ▲ = acima de 100% (problema de medida, valor real mantido).
+            Reforço em doses por habitante. Renda: rendimento domiciliar per capita mediano (Censo 2022). Voto: % dos válidos
+            no 2º turno de 2018.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="renda" aria-hidden="true"></div>
+    <div class="rodape-grade">
+      <section>
+        <h2>Fontes</h2>
+        <ul>
+          <li>Vacinação: microdados de vacinação contra a Covid-19, OpenDataSUS / Ministério da Saúde.</li>
+          <li>População: IBGE, Censo Demográfico 2022 e estimativas populacionais 2021.</li>
+          <li>Eleições: Tribunal Superior Eleitoral (TSE), resultados 2018, 2020 e 2022.</li>
+          <li>Rede de saúde: CNES / DATASUS, estabelecimentos e equipes, dez/2020 e dez/2021.</li>
+          <li>Vacinação contra influenza 2019: SI-PNI / DATASUS.</li>
+          <li>IDHM: Atlas do Desenvolvimento Humano no Brasil.</li>
+          <li>Malha municipal: geodata-br (IBGE).</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Metodologia, em resumo</h2>
+        <p>Cobertura = pessoas com ao menos uma dose (ou esquema completo) que moram no município ÷ população do Censo 2022.
+          Pessoas são contadas pelo identificador anonimizado do paciente, o que remove registros duplicados. Período:
+          17/01/2021 a 16/04/2024; só vacinas contra a Covid-19. Reforço é contado em doses por habitante, não em pessoas.
+          Análise exploratória entre municípios: não diz nada sobre indivíduos e não estabelece causa.</p>
+      </section>
+      <section>
+        <h2>Autores</h2>
+        <p>Lucas Santos Maia e Donnavan Souza de Carvalho. Projeto final da disciplina de Visualização de Dados.</p>
+      </section>
+    </div>
+  </footer>
+
+  <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/scrollama@3.2.0/build/scrollama.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tom-select@2.3.1/dist/js/tom-select.complete.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+# Python 3.11+ (testado em 3.14). Instalar: python -m pip install -r requirements.txt
+pandas>=2.2
+numpy>=2.0
+scipy>=1.13
+statsmodels>=0.14
+tabulate>=0.9      # tabelas em Markdown nos relatórios
+requests>=2.31     # coleta_dados.py (API do IBGE)
+dbfread>=2.0       # coleta_dados.py (arquivos do CNES)
+shapely>=2.0       # build.py (área, vizinhança)

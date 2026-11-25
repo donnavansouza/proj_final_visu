@@ -1,0 +1,33 @@
+[2026-11-12 18:45:09] CNES: baixando /dissemin/publicos/CNES/200508_/Dados/ST/STCE2012.dbc
+[2026-11-12 18:45:11]   541,950 bytes, sha256 ccb4cf745f34088b645e24d3f8a4c08b9b4c3c100219a93908d3ade2c85a99c6
+[2026-11-12 18:45:15]   OK cnes_STCE2012.csv: 12650 linhas, colunas: CNES, CODUFMUN, COD_CEP, CPF_CNPJ, PF_PJ, NIV_DEP, CNPJ_MAN, COD_IR, REGSAUDE, MICR_REG, DISTRSAN, DISTRADM, VINC_SUS, TPGESTAO, ESFERA_A, RETENCAO, ATIVIDAD, NATUREZA, CLIENTEL, TP_UNID, TURNO_AT, NIV_HIER, TP_PREST, CO_BANCO, CO_AGENC...
+[2026-11-12 18:45:15] CNES: baixando /dissemin/publicos/CNES/200508_/Dados/ST/STCE2112.dbc
+[2026-11-12 18:45:16]   577,544 bytes, sha256 e5d12ab7249cb53b2ceb3976db73e7a72dd5205a6f549e423af0df8256eadd6f
+[2026-11-12 18:45:20]   OK cnes_STCE2112.csv: 13422 linhas, colunas: CNES, CODUFMUN, COD_CEP, CPF_CNPJ, PF_PJ, NIV_DEP, CNPJ_MAN, COD_IR, REGSAUDE, MICR_REG, DISTRSAN, DISTRADM, VINC_SUS, TPGESTAO, ESFERA_A, RETENCAO, ATIVIDAD, NATUREZA, CLIENTEL, TP_UNID, TURNO_AT, NIV_HIER, TP_PREST, CO_BANCO, CO_AGENC...
+[2026-11-12 18:45:20] CNES: baixando /dissemin/publicos/CNES/200508_/Dados/EP/EPCE2012.dbc
+[2026-11-12 18:45:21]   180,880 bytes, sha256 43ef054ac5622b3ca7a5541c555e26eb26004f99009f7e34c539b55699e0ad48
+[2026-11-12 18:45:22]   OK cnes_EPCE2012.csv: 5395 linhas, colunas: CNES, CODUFMUN, COD_CEP, CPF_CNPJ, PF_PJ, NIV_DEP, CNPJ_MAN, COD_IR, REGSAUDE, MICR_REG, DISTRSAN, DISTRADM, VINC_SUS, TPGESTAO, ESFERA_A, RETENCAO, ATIVIDAD, NATUREZA, CLIENTEL, TP_UNID, TURNO_AT, NIV_HIER, TERCEIRO, TP_PREST, GESPRG1E...
+[2026-11-12 18:45:22] CNES: baixando /dissemin/publicos/CNES/200508_/Dados/EP/EPCE2112.dbc
+[2026-11-12 18:45:23]   185,682 bytes, sha256 1fc16a7c9307b7245c31e2924fd516eb3f02ec58352f8796274ff9959fd879fa
+[2026-11-12 18:45:24]   OK cnes_EPCE2112.csv: 5553 linhas, colunas: CNES, CODUFMUN, COD_CEP, CPF_CNPJ, PF_PJ, NIV_DEP, CNPJ_MAN, COD_IR, REGSAUDE, MICR_REG, DISTRSAN, DISTRADM, VINC_SUS, TPGESTAO, ESFERA_A, RETENCAO, ATIVIDAD, NATUREZA, CLIENTEL, TP_UNID, TURNO_AT, NIV_HIER, TERCEIRO, TP_PREST, GESPRG1E...
+[2026-11-12 18:45:24] Fim. Zipe a pasta 'saida_coleta' e mande de volta.
+[2026-11-12 18:46:01] SIDRA 10295: lendo metadados
+[2026-11-12 18:46:01]   baixando dados: https://servicodados.ibge.gov.br/api/v3/agregados/10295/periodos/2022/variaveis/all?localidades=N6[N3[23]]&classificacao=2[6794]|86[95251]|58[95253]
+[2026-11-12 18:46:02]   OK saida_coleta\sidra_10295.csv: 736 linhas, 184 municípios
+[2026-11-12 18:46:02] SIDRA 10061: lendo metadados
+[2026-11-12 18:46:02]   aberta: Nível de instrução (5 categorias)
+[2026-11-12 18:46:02]   baixando dados: https://servicodados.ibge.gov.br/api/v3/agregados/10061/periodos/2022/variaveis/all?localidades=N6[N3[23]]&classificacao=1568[all]|58[95253]|2[6794]|86[95251]
+[2026-11-12 18:46:03]   OK saida_coleta\sidra_10061.csv: 1840 linhas, 184 municípios
+[2026-11-12 18:46:03] SIDRA 9537: lendo metadados
+[2026-11-12 18:46:04]   aberta: Religião (10 categorias)
+[2026-11-12 18:46:04]   baixando dados: https://servicodados.ibge.gov.br/api/v3/agregados/9537/periodos/2022/variaveis/all?localidades=N6[N3[23]]&classificacao=133[all]|2[6794]|58[95253]
+[2026-11-12 18:46:06]   OK saida_coleta\sidra_9537.csv: 5520 linhas, 184 municípios
+[2026-11-12 18:46:06] SIDRA 9942: lendo metadados
+[2026-11-12 18:46:06]   aberta: Existência de conexão domiciliar à Internet (3 categorias)
+[2026-11-12 18:46:06]   baixando dados: https://servicodados.ibge.gov.br/api/v3/agregados/9942/periodos/2022/variaveis/all?localidades=N6[N3[23]]&classificacao=2072[all]|86[95251]|58[95253]
+[2026-11-12 18:46:07]   OK saida_coleta\sidra_9942.csv: 1104 linhas, 184 municípios
+[2026-11-12 18:46:07] SIDRA 9923: lendo metadados
+[2026-11-12 18:46:08]   aberta: Situação do domicílio (3 categorias)
+[2026-11-12 18:46:08]   baixando dados: https://servicodados.ibge.gov.br/api/v3/agregados/9923/periodos/2022/variaveis/all?localidades=N6[N3[23]]&classificacao=1[all]
+[2026-11-12 18:46:08]   OK saida_coleta\sidra_9923.csv: 1104 linhas, 184 municípios
+[2026-11-12 18:46:08] Fim. Zipe a pasta 'saida_coleta' e mande de volta.

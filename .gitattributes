@@ -1,2 +1,2 @@
-*.zip filter=lfs diff=lfs merge=lfs -text
-*.csv.gz filter=lfs diff=lfs merge=lfs -text
+# O projeto não usa mais Git LFS: os maiores arquivos que vão para o GitHub têm
+# menos de 20 MB (os microdados de 491 MB ficam fora, ver .gitignore).

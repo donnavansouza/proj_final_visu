@@ -1,0 +1,21 @@
+# Validação — tse_municipal.csv
+
+- Presidente 2018, 1º turno, CE: Bolsonaro 21.74% dos válidos
+- Presidente 2018, 2º turno, CE: 184 municípios; Bolsonaro 1,384,591 (28.89%), Haddad 3,407,526 (71.11%), válidos 4,792,117; soma dos dois = válidos? True
+- Presidente 2022, 1º turno, CE: Bolsonaro 25.38% dos válidos
+- Presidente 2022, 2º turno, CE: 184 municípios; Bolsonaro 1,634,477 (30.03%), Lula 3,807,891 (69.97%), válidos 5,442,368; soma dos dois = válidos? True
+- Prefeito 2020 (ordinária): 183 municípios; 178 com exatamente 1 eleito; 5 sem eleito; 2º turno em 2 (13730, 13897); candidato único em 9
+- Eleições suplementares para prefeito (2021–2023): 8 municípios
+- Comparecimento 2018, 2º turno, CE: 81.31% (5,158,343 de 6,343,848 aptos; 184 municípios)
+- Comparecimento 2022, 2º turno, CE: 82.86% (5,649,398 de 6,818,192 aptos; 184 municípios)
+- Reeleição 2020: 65 prefeitos reeleitos de 178 eleitos com cadastro (comparação com os eleitos de 2016 por título/CPF; 184 municípios com eleito em 2016)
+  - Coreaú: 0_eleitos_na_ordinaria; suplementar=False (nan, nan)
+  - Jaguaruana: 0_eleitos_na_ordinaria; suplementar=True (PC do B, 07/11/2021)
+  - Martinópole: 0_eleitos_na_ordinaria; suplementar=True (PP, 01/08/2021)
+  - Missão Velha: 0_eleitos_na_ordinaria; suplementar=True (PDT, 01/08/2021)
+  - Pacujá: sem_votacao_no_arquivo; suplementar=nan (nan, nan)
+  - Pedra Branca: 0_eleitos_na_ordinaria; suplementar=True (PSD, 01/08/2021)
+- Sem valor em pct_bolsonaro_2018: 0 []
+- Sem valor em pct_bolsonaro_2022: 0 []
+- Sem valor em prefeito_partido_2020: 6 ['Coreaú', 'Jaguaruana', 'Martinópole', 'Missão Velha', 'Pacujá', 'Pedra Branca']
+- Linhas: 184; ibge único: True

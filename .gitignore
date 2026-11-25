@@ -1,0 +1,27 @@
+# Microdados de vacinação do Ceará (491 MB). Ficam só no computador de quem
+# rodou a etapa "filtrar". Pesados demais para o GitHub e não são públicos de
+# propósito: são registros individuais (mesmo pseudonimizados). O site não
+# precisa deles: os totais já estão em dados/processados/. Como refazer: docs/06.
+dados/brutos/microdados_CE/
+
+# Arquivos temporários da coleta (DBC baixados do DATASUS, convertidos em CSV)
+dados/brutos/cnes/cnes_bruto/
+dados/brutos/ibge/*_metadados.json
+dados/brutos/cnes/resumo_*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+testes/
+
+# Editor e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+~$*
